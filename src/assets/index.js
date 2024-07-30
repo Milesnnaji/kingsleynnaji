@@ -5,7 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import flutter from "./flutter.svg";
-import bootstrap from "./bootstrap.png";
+import bootstrap from "./Bootstrap.png";
 import wix from "./wix.svg";
 
 import menu from "./menu.svg";
