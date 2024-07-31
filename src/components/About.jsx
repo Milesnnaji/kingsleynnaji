@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       <div className="flex justify-center mb-8">
-        <a href="./src/components/more/index.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://milesnnnaji.vercel.app/" target="_blank" rel="noopener noreferrer">
           <button className="bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">
             Visit My Portfolio
           </button>
