@@ -8,28 +8,17 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className="w-full xs:w-[230px] sm:w-[250px]">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        options={{ max: 45, scale: 1, speed: 450 }}
+        className="bg-tertiary rounded-[20px] py-5 px-6 sm:px-8 min-h-[220px] sm:min-h-[280px] flex justify-evenly items-center flex-col"
       >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
+        <img src={icon} alt={title} className="w-14 h-14 sm:w-16 sm:h-16 object-contain" />
+        <h3 className="text-white text-[17px] sm:text-[20px] font-bold text-center">{title}</h3>
       </div>
     </motion.div>
   </Tilt>
@@ -38,14 +27,6 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <div className="flex justify-center mb-8">
-        <a href="https://milesnnnaji.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <button className="bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">
-            Visit My Portfolio
-          </button>
-        </a>
-      </div>
-
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -53,16 +34,17 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[28px] sm:leading-[30px]"
       >
-        Hello there! I'm Kingsley Nnaji, a skilled developer proficient in Flutter, React Native,
-        Android development with Java, and React.js. My expertise extends to building REST and
-        GraphQL APIs using Node.js, implementing authentication strategies, and working with
-        databases such as MongoDB and SQL. I excel in various facets of software engineering,
-        delivering efficient and scalable solutions. Let's collaborate and craft exceptional software together!
+        I'm Kingsley Nnaji, a full-stack software developer specializing in Next.js, React, TypeScript,
+        Flutter, and Node.js. I build scalable web applications, SaaS platforms, and AI-powered automation
+        tools — including OpenClaw, a multi-step autonomous AI agent framework. My expertise spans
+        REST API development, payment integrations (Stripe, Paystack), Firebase, MongoDB, and cloud
+        deployment on AWS and Vercel. I deliver production-ready software that is fast, secure, and user-focused.
+        Let's build something great together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-12 sm:mt-20 flex flex-wrap gap-6 sm:gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -30,9 +30,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./carrent.jpg";
+import jobit from "./jobit.jpg";
+import tripguide from "./tripguide.jpg";
+import civyxpro from "./civyxpro.jpg";
+import openclaw from "./openclaw.jpg";
+import invoxaflow from "./invoxaflow.jpg";
+import swifthaul1 from "./swifthaul1.jpg";
+import swifthaul2 from "./swifthaul2.jpg";
 
 export {
   logo,
@@ -66,4 +71,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  civyxpro,
+  openclaw,
+  invoxaflow,
+  swifthaul1,
+  swifthaul2,
 };

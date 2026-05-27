@@ -1,32 +1,29 @@
 import {
-    mobile,
-    bootstrap ,
     flutter,
-    backend,
     creator,
-    wix,
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
     node,
     mongodb,
     git,
     figma,
     docker,
-    meta,
     starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
+    civyxpro,
+    openclaw,
+    invoxaflow,
+    swifthaul1,
+    swifthaul2,
     threejs,
   } from "../assets";
+
+import carrent1 from "../assets/carrent1.jpg";
   
   export const navLinks = [
     {
@@ -45,32 +42,24 @@ import {
   
   const services = [
     {
+      title: "Next.js / React Developer",
+      icon: web,
+    },
+    {
       title: "Flutter Developer",
       icon: flutter,
     },
     {
-      title: "Node.Js Developer",
+      title: "Node.js Backend Developer",
       icon: node,
     },
     {
-      title: "REST API's Developer",
-      icon: backend,
-    },
-    {
-      title: "React Native Developer",
-      icon: reactjs,
+      title: "AI & Automation Builder",
+      icon: creator,
     },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -80,103 +69,84 @@ import {
       icon: typescript,
     },
     {
-      name: "Dart",
+      name: "React.js",
       icon: reactjs,
+    },
+    {
+      name: "Next.js",
+      icon: web,
     },
     {
       name: "Flutter",
       icon: flutter,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: node,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "bootstrap",
-      icon: bootstrap,
+      name: "Three.js",
+      icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "wix",
-      icon: wix,
+      name: "Docker",
+      icon: docker,
     },
     {
-      name: "Rest Api",
-      icon: backend,
+      name: "Figma",
+      icon: figma,
     },
   ];
   
   const experiences = [
     {
-      title: "Software Developer at Mattress Warehouse ",
-      company_name: "Arthur Nato",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "June 2023",
-      points: [
-        "Built a fully functional e-commerce website for Mattress Warehouse, facilitating online sales and inventory management, and enhancing customer shopping experience.",
-      
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React.js Developer",
-      company_name: "IENERGYUP-INNOVATION ",
+      title: "React.js Frontend Engineer (Intern)",
+      company_name: "IENERGYUP-INNOVATIONLAB",
       icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Sept 2023",
+      date: "Sept 2023 – Jan 2024",
       points: [
-       // "Collaborative Problsing strong teamwork and commchitecting the solution and ensuring data integrity through comprehensive testing.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Contributed to developing and maintaining dynamic web applications using React.js. Collaborated with cross-functional teams to enhance user interfaces, implement new features, and optimize performance for a better user experience.",
-
-       
-       // "Implementing responsive design (AirBnB clone) and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed responsive frontend components using React.js, improving usability and user experience across the platform.",
+        "Integrated REST APIs to support real-time property listings, search filtering, and booking workflows.",
+        "Collaborated with UI/UX and backend teams to deliver scalable and accessible web interfaces.",
       ],
     },
     {
-      title: "Software Dev",
-      company_name: "Only1Samaga",
-      icon: node,
+      title: "Founder & Full-Stack Developer",
+      company_name: "Web Core Oracle",
+      icon: creator,
       iconBg: "#383E56",
-      date: "May 2024",
+      date: "2023 – 2025",
       points: [
-        "Developed a professional portfolio website to showcase projects, skills, and accomplishments, utilizing modern web technologies for a seamless and engaging user experience.",
-
-        //"Wrote integration tests for all applications using JUnit/Mockito, significantly reducing customer complaints about bugs and application malfunctions..",
-       // "Designed and built scalable APIs to increase development workflow by 25%",
-       // "Implementing responsive design and ensuring cross-browser compatibility.",
-        //"Participating in code reviews and providing constructive feedback to other developers.",
+        "Built and deployed OpenClaw, a Telegram-integrated AI agent framework with persistent session tracking and multi-step workflow continuity.",
+        "Built CivyxPro, a resume-builder SaaS with PDF export and Stripe/Paystack payment integration.",
+        "Developed InvoxaFlow, a full-stack invoicing and payment tracking platform for freelancers.",
+        "Engineered a multi-tenant SaaS marketplace supporting 50+ currencies with secure authentication and scalable deployment.",
+        "Automated multi-stage content workflows using n8n, reducing manual publishing effort.",
       ],
     },
     {
-      title: "Android App DEv  ",
-      company_name: " Codeclaues",
-      icon: mobile,
+      title: "IT Support Associate",
+      company_name: "Arthur Nato Limited",
+      icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "May 2024 ",
+      date: "Feb 2024 – May 2026",
       points: [
-       
-
-
-"Developed and maintained Android applications, collaborating with senior developers to implement new features, fix bugs, and enhance app performance. Gained hands-on experience with Java and Kotlin, contributing to user-friendly and efficient mobile solutions.",
-       // "Improved user authentication by incorporating email service into an existing Spring Boot application.",
-       // "Increased productivity by 40% by following agile methodologies and best practices for product development.",
-       // "Managed SQL Server database system to ensure data integrity and security.",
-        //"Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided technical support for software installation, troubleshooting, system configuration, and network maintenance.",
+        "Managed digital operations, online inquiries, and system updates to maintain operational efficiency.",
+        "Resolved technical issues promptly to minimize downtime and support continuous business operations.",
       ],
     },
   ];
@@ -186,34 +156,93 @@ import {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Kingsley Nnaji proved me wrong.",
       name: "Emmanuel Macaulay",
-      designation: "Stack Associate",
-      company: "DECAGON",
-   
+      designation: "IT Manager",
+      company: "Arthur Nato Limited",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Kingsley Nnaji does.",
       name: "Samuel Olawuyi",
-      designation: "CEO",
-      company: "SammyWealth",
-    
+      designation: "Director",
+      company: "Arthur Nato Limited",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Kingsley consistently resolved our technical issues with speed and professionalism. His contributions to our digital operations have been invaluable to the team.",
       name: "Pius Owolabi",
-      designation: "Head of Network Operations",
-      company: "Nigerian Civil Aviation Authority",
-
+      designation: "Operations Manager",
+      company: "Arthur Nato Limited",
     },
   ];
   
   const projects = [
     {
-      name: "Amazon clone",
+      name: "OpenClaw",
       description:
-     "E-commerce Functionality: Developed Flutter-based front-end for a user-friendly shopping experience. Implemented Node.js backend to handle product listings, user accounts, and transactions. Payment Integration: Integrated payment gateways for secure and seamless transactions.  Ensured a smooth checkout process for users.",
-        //"Web-based platform that allows users to sign-up, login, and chat with other users as well as Make post, Like post and comment.",
+        "A multi-step autonomous AI agent framework built with Node.js and the Telegram Bot API. Features persistent memory across sessions using MEMORY.md, multi-turn interaction tracking, and security auditing for prompt injection risks.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ollama / qwen3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Telegram API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: openclaw,
+      source_code_link: "https://github.com/milesnnaji",
+    },
+    {
+      name: "CivyxPro",
+      description:
+        "A resume-builder SaaS platform supporting PDF export and dual payment integration via Stripe and Paystack. Built with Next.js and Node.js, reducing resume creation and export time for users.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe / Paystack",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: civyxpro,
+      source_code_link: "https://github.com/Milesnnaji/civyxpro",
+    },
+    {
+      name: "InvoxaFlow",
+      description:
+        "A full-stack invoicing and payment tracking platform for freelancers. Automates invoice generation and payment monitoring workflows, built with React.js, Node.js, and MongoDB.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: invoxaflow,
+      source_code_link: "https://github.com/Milesnnaji/invoxaflow",
+    },
+    {
+      name: "Amazon Clone",
+      description:
+        "Flutter-based e-commerce app replicating core Amazon features — product listings, user accounts, cart management, and secure payment gateway integration via a Node.js backend.",
       tags: [
         {
           name: "Flutter",
@@ -232,8 +261,9 @@ import {
       source_code_link: "https://github.com/Milesnnaji/Amazon-clone",
     },
     {
-      name: "E-commerce Wrist Watches Android App",
-      description:"A sleek and user-friendly Android app designed for purchasing wrist watches. Browse through a wide selection of stylish and premium watches, compare prices, and make secure purchases with ease. The app features intuitive navigation, detailed product descriptions, high-quality images, and seamless checkout, providing an exceptional shopping experience.",
+      name: "WristWorks — Watch Store App",
+      description:
+        "A sleek Android e-commerce app for purchasing wrist watches. Features intuitive navigation, detailed product pages, high-quality images, cart management, and a seamless Firebase-backed checkout.",
       tags: [
         {
           name: "Java",
@@ -244,7 +274,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: " Android App",
+          name: "Android",
           color: "pink-text-gradient",
         },
       ],
@@ -252,27 +282,27 @@ import {
       source_code_link: "https://github.com/Milesnnaji/WristWorks",
     },
     {
-      name: "Job List Application",
+      name: "SwiftHaul",
       description:
-        "Job Matching Algorithm: Created Flutter application for effective job searching and posting.Implemented Node.js backend for job listing management and user profiles.Application Management:Developed a system for job seekers to apply, and employers to manage applications.",
+        "A logistics platform for door-to-door courier delivery across all 36 Nigerian states. Features live tracking, instant PDF receipts, delivery photo proof, and Paystack payment integration.",
       tags: [
         {
-          name: "Flutter",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "swift",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "Dart",
+          name: "Paystack",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/Milesnnaji/Flutter-job-list-application--",
+      image: swifthaul1,
+      images: [swifthaul1, swifthaul2],
+      source_code_link: "https://github.com/Milesnnaji/SwiftHaul",
     },
-
   ];
   
   export { services, technologies, experiences, testimonials, projects };
